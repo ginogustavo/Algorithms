@@ -1,2 +1,2 @@
-# bigoh
-Big-oh notation notes
+# Algorithms
+notes
