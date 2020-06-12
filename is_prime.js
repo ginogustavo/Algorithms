@@ -17,3 +17,8 @@ var test_number = 97
 var validation = is_prime(test_number)
 var message = test_number + ((validation)?" is":" is not")  +  " a prime number"
 console.log(message)
+
+/*
+It ends in i*i <=number or  i <= √number
+Then is  O(√n)
+*/
