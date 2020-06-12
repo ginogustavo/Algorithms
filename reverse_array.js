@@ -13,7 +13,7 @@ function reverse_array(array){
     return array
 }
 
-//Test
+//Test -  O(n)
 array_test = [10,20,30,40,100,80]
 console.log("Original order: "+ array_test)
 
