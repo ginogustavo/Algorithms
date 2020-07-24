@@ -1,0 +1,8 @@
+*.class
+
+java/Test/*
+
+*.classpath
+*.project
+
+.settings/
