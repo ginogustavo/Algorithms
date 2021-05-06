@@ -29,7 +29,6 @@ public class C1_4_Palindrome_Permutation {
 				}
 			}
 		}
-		System.out.println(duplicates.size());
 		return duplicates.size() <= 1;
 
 	}
