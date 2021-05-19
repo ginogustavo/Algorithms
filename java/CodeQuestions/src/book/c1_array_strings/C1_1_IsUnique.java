@@ -1,4 +1,4 @@
-package array_hashtable_string;
+package book.c1_array_strings;
 
 import java.util.Arrays;
 
