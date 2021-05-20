@@ -20,6 +20,22 @@ public class C1_3_URLify {
 		}
 		System.out.println("]");
 
+		//When full string is provided..
+		System.out.println("-"+C1_3_URLify.urify("Mr John Smith      ")+"-");
+	}
+
+	private static String urify(String str){
+		String s = str.stripTrailing();
+		StringBuilder sb = new StringBuilder(str.length());
+
+		for (int i = 0; i < s.length(); i++) {
+			if(s.charAt(i)==' '){
+				sb.append("%20");
+			}else{
+				sb.append(s.charAt(i));
+			}
+		}
+		return sb.toString();
 	}
 
 	public char[] replaceSpaces(char[] str, int trueLenght) {
