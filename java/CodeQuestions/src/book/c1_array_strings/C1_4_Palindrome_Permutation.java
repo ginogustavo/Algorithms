@@ -1,4 +1,4 @@
-package array_hashtable_string;
+package book.c1_array_strings;
 
 import java.util.Hashtable;
 import java.util.Map;
@@ -16,7 +16,7 @@ public class C1_4_Palindrome_Permutation {
 
 	private boolean validPalindrome(String text) {
 
-		Map<Character, Integer> duplicates = new Hashtable<Character, Integer>();
+		Map<Character, Integer> duplicates = new Hashtable<>();
 
 		for (int i = 0; i < text.length(); i++) {
 
