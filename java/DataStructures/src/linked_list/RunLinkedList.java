@@ -3,7 +3,7 @@ package linked_list;
 public class RunLinkedList {
 
 	public static void main(String[] args) {
-		MyLinkedList linkedList = new MyLinkedList(); // Initialize empty LinkedList
+		Linked01_Basics linkedList = new Linked01_Basics(); // Initialize empty LinkedList
 		linkedList.addAtHead(1);
 		linkedList.printLL();
 		
