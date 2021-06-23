@@ -7,7 +7,7 @@ public class Queue03_ArrayImpl {
 
     public static void main(String[] args) {
 
-        MyQueue mq = new MyQueue(4);
+        MyQueue mq = new MyQueue(5);
         mq.enqueue(10);
         mq.enqueue(20);
         mq.enqueue(30);
